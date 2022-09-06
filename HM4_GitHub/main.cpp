@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+class Car
+{
+	char* model;
+public:
+	Car()
+	{
+		model = nullptr;
+	}
+};
+
 class Point
 {
 	int x, y, z;
@@ -16,18 +26,9 @@ public:
 		z = Nz;
 	}
 };
-class Car
-{
-	char* model;
-public:
-	Car()
-	{
-		model = nullptr;
-	}
-};
 
 
 void main()
 {
-
+	cout << endl;
 }
