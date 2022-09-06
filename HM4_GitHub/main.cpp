@@ -9,7 +9,12 @@ public:
 	{
 		x = y = z = 0;
 	}
-
+	Point(int Nx, int Ny, int Nz)
+	{
+		x = Nx;
+		y = Ny;
+		z = Nz;
+	}
 };
 
 
