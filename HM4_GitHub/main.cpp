@@ -10,6 +10,23 @@ public:
 		model = nullptr;
 	}
 };
+
+class Point
+{
+	int x, y, z;
+public:
+	Point()
+	{
+		x = y = z = 0;
+	}
+	Point(int Nx, int Ny, int Nz)
+	{
+		x = Nx;
+		y = Ny;
+		z = Nz;
+	}
+};
+
 class Student
 {
 	char* name;
@@ -27,21 +44,6 @@ public:
 		name = new char[strlen(NewName) + 1];
 		strcpy_s(name, strlen(NewName) + 1, NewName);
 
-class Point
-{
-	int x, y, z;
-public:
-	Point()
-	{
-		x = y = z = 0;
-	}
-	Point(int Nx, int Ny, int Nz)
-	{
-		x = Nx;
-		y = Ny;
-		z = Nz;
-	}
-};
 		age = Age;
 		number = Number;
 	}
@@ -51,4 +53,7 @@ public:
 void main()
 {
 	cout << endl;
+	cout <<"Привет"<< endl;
+
+	
 }
